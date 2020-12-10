@@ -1,0 +1,103 @@
+
+.easion-card .card-body {
+    padding: 10px 10px;
+}
+.card-body.card-body-table {
+    padding: 0px 0px;
+}
+.table-in-card{
+    margin: 0px;
+}
+.table-in-card p{
+    margin: 0px;
+    padding: 0px;
+}
+.row-operate-docker{
+    height: 25px;
+    padding-top: 3px;
+
+}
+.row-operate{
+    font-size: 14px;
+
+}
+.hide{
+    display: none;
+}
+
+.row-operate span{
+    cursor: pointer;
+    color: #039AFF;
+}
+.table td{
+    padding: 0.5rem;;
+}
+.row.search-row{
+    padding: 5px 0;
+}
+.padding-left-none{
+    padding-left: 0px !important;
+}
+
+.pull-right{
+    float: right;
+}
+.pull-left{
+    float: left;
+}
+.file-operate-docker{
+    background-color: #ffffff;
+    border: 1px solid #ccd0d4;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+
+}
+.file-box-docker{
+    padding-top: 10px;
+}
+
+
+.file-box{
+    float: left;
+    width: 218px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border: 1px #E9EDF4 solid;
+    cursor: pointer;
+}
+.file-box:hover{
+    border: 1px solid #039AFF;
+}
+
+
+.file-box .image{
+    height: 100px;
+    overflow: hidden;
+}
+.file-box .image img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.file-box .image-remarks{
+    font-size: 14px;
+    background-color: #FFFFFF;
+    padding-top: 5px;
+}
+.file-box .image-remarks p{
+    margin: 0;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+
+
+
+@media (max-width: 576px) {
+    .file-box{
+        width: 200px;
+    }
+}
